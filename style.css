@@ -798,9 +798,10 @@ img {
     .hero {
         height: 60vh;
         /* Shorter hero on mobile for faster scrolling to menu */
-        background-attachment: scroll !important;
-        /* Fixed background is buggy on many mobile browsers */
+        background-attachment: fixed;
+        /* Re-enable parallax effect on mobile */
         background-position: center center;
+        background-size: cover;
     }
 
     .hero-title {
