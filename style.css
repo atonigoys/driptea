@@ -795,8 +795,16 @@ img {
         height: 300px;
     }
 
+    .hero {
+        height: 60vh;
+        /* Shorter hero on mobile for faster scrolling to menu */
+        background-attachment: scroll !important;
+        /* Fixed background is buggy on many mobile browsers */
+        background-position: center center;
+    }
+
     .hero-title {
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
 }
 
