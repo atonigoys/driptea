@@ -187,7 +187,8 @@ img {
 .logo {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 16px;
+    /* Increased from 12px */
     font-family: var(--font-heading);
     font-size: 1.5rem;
     font-weight: 800;
@@ -211,7 +212,8 @@ img {
 
 .nav-list {
     display: flex;
-    gap: var(--spacing-md);
+    gap: 3rem;
+    /* Increased from 2rem for better breathing room */
 }
 
 .nav-link {
@@ -229,7 +231,8 @@ img {
 .header-actions {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 24px;
+    /* Increased from 12px */
 }
 
 .header-cta {
