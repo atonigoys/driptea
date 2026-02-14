@@ -820,6 +820,10 @@ img {
     .hero {
         height: 60vh;
         /* Shorter hero on mobile for faster scrolling to menu */
+        background-image: none !important;
+        /* Hide background image on mobile */
+        background-color: var(--color-bg);
+        /* Use solid background color instead */
         background-attachment: fixed;
         /* Re-enable parallax effect on mobile */
         background-position: center center;
