@@ -182,6 +182,8 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    /* Ensure container fills the header width */
 }
 
 .logo {
@@ -212,8 +214,8 @@ img {
 
 .nav-list {
     display: flex;
-    gap: 3rem;
-    /* Increased from 2rem for better breathing room */
+    gap: 4rem;
+    /* Even more space for maximum clarity */
 }
 
 .nav-link {
